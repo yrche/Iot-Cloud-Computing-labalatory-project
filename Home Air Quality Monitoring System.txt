@@ -1,0 +1,71 @@
+Project: Home Air Quality Monitoring System
+
+---
+
+ Features
+
+1. Real-Time Monitoring
+   - Monitor home air conditions in real time.
+   - Display sensor readings on a web or mobile dashboard.
+
+2. Cloud Integration
+   - Store and analyze environmental data in the Azure cloud.
+   - Support predictive analytics for air quality forecasting.
+
+3. Alerts and Notifications
+   - Notify users when conditions exceed healthy thresholds.
+   - Mobile app notifications and control.
+
+4. Automation (Optional Advanced Feature)
+   - Support smart automation, such as activating ventilation or air conditioning automatically.
+
+5. Multi-Room Support
+   - Monitor multiple rooms and locations within the home.
+
+---
+
+ User Types
+
+1. Homeowner / Resident
+   - Main user who wants to monitor living conditions.
+   - Goals: View data, receive alerts, and improve air quality.
+
+2. System Administrator
+   - Maintains and monitors system functionality.
+   - Goals: Ensure devices are connected and sending data correctly, analyze trends, detect long-term issues, and suggest optimizations.
+
+3. Service Provider / Developer
+   - Tests and deploys the IoT solution using Azure services.
+   - Goals: Validate system functionality and data integrity.
+
+---
+
+ User Goals
+
+1. Comfort and Health
+   - Maintain a pleasant and healthy home environment.
+
+2. Energy Efficiency
+   - Data-driven control of HVAC systems to reduce energy costs.
+
+3. Automation Potential
+   - Expandable into a full smart home ecosystem.
+
+4. Educational Value
+   - Demonstrates real-world use of Azure IoT, cloud computing, and data analytics.
+
+---
+
+ User Stories
+
+1. Homeowner
+   - I want to see real-time temperature and humidity on my dashboard so that I can know if my home is comfortable.  
+   - I want to receive alerts when humidity or temperature is abnormal so that I can take quick action to fix the issue.  
+   - I want to view historical trends of air quality so that I can understand long-term comfort levels.  
+
+2. System Administrator
+   - I want to monitor device connection status so that I can ensure that all IoT sensors are functioning properly.  
+
+3. Developer / Student Team
+   - I want to test and deploy the IoT solution using Azure services so that I can validate system functionality and data integrity.  
+   - I want to demonstrate IoT integration with Azure so that I can show real-world cloud and IoT skills.
