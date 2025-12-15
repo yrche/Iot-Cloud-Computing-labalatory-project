@@ -2,14 +2,12 @@
 
 This project uses `docker-compose.yml` to run PostgreSQL and pgAdmin on a server. Port **5432** is exposed for PostgreSQL, and port **15433** is exposed for pgAdmin web interface.
 
----
 
 ## Prerequisites
 
 - Server with Docker and Docker Compose installed
 - Terminal access with a user that can run Docker commands
 
----
 
 ## Setup
 
