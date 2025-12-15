@@ -1,0 +1,23 @@
+{
+  "name": "webserver-iot",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "start": "nodemon ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.47",
+    "@sequelize/postgres": "^7.0.0-alpha.47",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mqtt": "^5.14.1",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7"
+  }
+}
