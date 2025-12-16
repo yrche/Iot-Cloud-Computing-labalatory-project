@@ -1,0 +1,17 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "main": "src/simulator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "luxon": "^3.7.2",
+    "mqtt": "^5.14.1"
+  }
+}
