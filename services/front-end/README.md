@@ -1,16 +1,60 @@
-# React + Vite
+IoT System Monitoring Dashboard (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the client-side application for the Cloud IoT System, designed to provide a real-time visual interface for monitoring device data and system status.
+💻 Tech Stack
 
-Currently, two official plugins are available:
+    Framework: React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    State Management: Redux (for consistent data flow across the dashboard).
 
-## React Compiler
+    Styling: Modern CSS/Responsive Design concepts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Communication: REST API integration to fetch processed IoT data from the backend.
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Real-time Data Visualization: Displays live telemetry from simulated IoT devices.
+
+    System Status Overview: Monitors the health of the MQTT broker and backend processing services.
+
+    Historical Data View: Interface to query and display persisted data from the PostgreSQL database.
+
+    Responsive UI: Optimized for various screen sizes to ensure a seamless monitoring experience.
+
+🛠 Integration with Ecosystem
+
+This frontend service is a key component of the distributed IoT architecture:
+
+    Backend Connectivity: Fetches data from the Node.js ingestion service.
+
+    Infrastructure: Designed to be containerized and deployed alongside the backend and MQTT broker using Docker.
+
+    Environment: Configured to work within the Azure/Oracle Cloud networking setup established for the lab project.
+
+🚦 Getting Started
+Prerequisites
+
+    Node.js and npm installed.
+
+    The Backend service and MQTT broker should be running for full functionality.
+
+Installation
+
+    Navigate to the frontend directory:
+    Bash
+
+    cd services/front-end
+
+    Install dependencies:
+    Bash
+
+    npm install
+
+    Start the development server:
+    Bash
+
+    npm start
+
+🏗 Architectural Role
+
+In this project, I focused on the "Fullstack" aspect by ensuring the frontend efficiently reflects the complex event-driven logic happening in the backend. It demonstrates my ability to build end-to-end solutions, from raw hardware simulation to user-facing dashboards.
