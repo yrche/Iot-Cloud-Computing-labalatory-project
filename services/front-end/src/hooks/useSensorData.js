@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 // API Configuration
 const API_CONFIG = {
-    baseUrl: "4.235.111.0:3000/api",
+    baseUrl: "<server_baseUrl>/api",
     endpoint: (endpoint) => `/${endpoint}/latest`,
     updateInterval: 5000,
 };
